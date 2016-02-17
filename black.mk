@@ -1,6 +1,6 @@
-include vendor/render/configs/common.mk
+include vendor/black/configs/common.mk
 
-PRODUCT_NAME := render_shamu
+PRODUCT_NAME := black_shamu
 PRODUCT_DEFCONFIG := B14CKB1RD_defconfig
 PRODUCT_KERNEL_SOURCE := kernel/moto/shamu
 CROSS_COMPILE := $(ANDROID_BUILD_TOP)/toolchains/arm-eabi-5.3/bin/arm-eabi-
