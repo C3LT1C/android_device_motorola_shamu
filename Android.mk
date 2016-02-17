@@ -1,4 +1,4 @@
-ifneq ($(filter shamu,$(RENDER_PRODUCT)),)
+ifneq ($(filter shamu,$(BLACK_PRODUCT)),)
 
 include $(DEVICE_MAKEFILE)
 
