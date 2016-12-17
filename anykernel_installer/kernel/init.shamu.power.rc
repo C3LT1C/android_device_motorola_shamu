@@ -62,6 +62,9 @@ on property:dev.bootcomplete=1
     write /dev/cpuctl/apps/cpu.notify_on_migrate 0
     write /sys/module/cpu_boost/parameters/input_boost_freq 1036800
 
+    # hotplug settings
+    write /sys/devices/platform/msm_sleeper/suspend_max_online 1
+
     # Disable UKSM by default
     write /sys/kernel/mm/uksm/run 0
 
