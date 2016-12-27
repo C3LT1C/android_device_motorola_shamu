@@ -68,6 +68,9 @@ on property:dev.bootcomplete=1
     # Disable UKSM by default
     write /sys/kernel/mm/uksm/run 0
 
+    # Enable State Notifier by default
+    write /sys/module/state_notifier/parameters/enabled Y
+
     # Default I/O values
     write /sys/block/mmcblk0/queue/scheduler maple
     write /sys/block/mmcblk0/queue/read_ahead_kb 512
