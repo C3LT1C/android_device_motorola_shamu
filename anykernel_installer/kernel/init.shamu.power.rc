@@ -63,7 +63,8 @@ on property:dev.bootcomplete=1
     write /sys/module/cpu_boost/parameters/input_boost_freq 1036800
 
     # hotplug settings
-    write /sys/devices/platform/msm_sleeper/suspend_max_online 1
+    write /sys/kernel/state_helper/max_cpus_susp 1
+    write /sys/kernel/state_helper/max_cpus_eco 2
 
     # Disable UKSM by default
     write /sys/kernel/mm/uksm/run 0
