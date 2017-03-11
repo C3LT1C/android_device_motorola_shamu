@@ -2,6 +2,6 @@
   {
     "repository":	"B14CKB1RD_Kernel_N6",
     "target_path":	"kernel/moto/shamu",
-    "revision":		"n7.0"
+    "revision":		"n7.1"
   }
 ]
