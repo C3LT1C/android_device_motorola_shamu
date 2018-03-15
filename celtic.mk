@@ -1,10 +1,11 @@
-PRODUCT_NAME := black_shamu
-PRODUCT_DEFCONFIG := B14CKB1RD_defconfig
+PRODUCT_NAME := celtic_shamu
+PRODUCT_DEFCONFIG := C3LT1C_defconfig
 PRODUCT_KERNEL_SOURCE := kernel/moto/shamu
+TARGET_USES_64_BIT_BINDER := true
 ARCH := arm
 
 # Include Kernel Vendor
-include vendor/black/configs/common.mk
+include vendor/celtic/configs/common.mk
 
 # Override default zImage define
 TARGET_ZIMAGE := zImage-dtb

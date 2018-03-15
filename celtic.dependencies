@@ -1,0 +1,7 @@
+[
+  {
+    "repository":	"C3LT1C_Kernel_N6",
+    "target_path":	"kernel/moto/shamu",
+    "revision":		"o"
+  }
+]
